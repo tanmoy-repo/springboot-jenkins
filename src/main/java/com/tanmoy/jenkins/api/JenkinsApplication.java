@@ -13,7 +13,7 @@ public class JenkinsApplication {
 	
 	@PostConstruct
 	public void init() {
-		log.info("Application Started...");
+		log.info("Application Started post construct...");
 	}
 	
 	
